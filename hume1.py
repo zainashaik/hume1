@@ -2,9 +2,9 @@ from hume import HumeBatchClient
 from hume.models.config import FaceConfig
 
 client = HumeBatchClient("p5hIRUVXHGy3QbOJYBDqh153XCPIFlT7ScbmZ97auTRD36yy")
-urls = ["https://hume-tutorials.s3.amazonaws.com/faces.zip"]
+urls1 = ["https://hume-tutorials.s3.amazonaws.com/faces.zip"]
 config = FaceConfig()
-job = client.submit_job(urls, [config])
+job = client.submit_job(urls1, [config])
 
 print(job)
 print("Running...")
