@@ -10,5 +10,5 @@ print(job)
 print("Running...")
 
 details = job.await_complete()
-job.download_predictions("predictions.json")
+job.download_predictions("predictions1.json")
 print("Predictions downloaded to predictions.json")
